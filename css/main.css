@@ -6,3 +6,43 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-card {
+  color: #512200;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  color: #512200
+}
+
+p {
+  font-size: 1rem;
+}
+
+dl {
+  font-size: 0.875rem;
+}
+
+dt {
+
+}
+
+dd {
+
+}
+
+.btn {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+}
