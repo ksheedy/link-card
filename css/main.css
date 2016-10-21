@@ -24,7 +24,7 @@ a {
   background-color: #dcd4cd;
   border: 3px solid #785439;
   border-radius: 8px;
-  padding: .75rem;
+  padding: .70rem;
 }
 
 a .link-card {
@@ -70,7 +70,7 @@ dl {
 
 dt {
   display: inline-block;
-  width: 50%;
+  width: 45%;
 }
 
 dd {
