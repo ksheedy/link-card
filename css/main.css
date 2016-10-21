@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #f0eee8;
 }
 
 a {
@@ -17,32 +18,56 @@ a {
 }
 
 .link-card {
+  display: inline-block;
+  margin: .5rem;
   color: #512200;
+  background-color: #dcd4cd;
+  border: 3px solid #785439;
+  border-radius: 3px;
+  padding: 1rem;
 }
 
 h1 {
+  display: inline-block;
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
-  color: #512200
+  color: #512200;
+  margin: 0;
+}
+
+strong {
+  margin: 0;
 }
 
 p {
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 dl {
   font-size: 0.875rem;
+  display: block;
+  line-height: 1.5;
+  margin: 0 0 1rem;
 }
 
 dt {
-
+  display: inline-block;
 }
 
 dd {
-
+  font-style: italic;
+  display: inline-block;
 }
 
 .btn {
+  display: inline-block;
+  text-align: center;
   font-family: "Dosis", sans-serif;
   font-size: 1.125rem;
+  background-color: #785439;
+  color: #fff;
+  border: 2px solid #785439;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
 }
