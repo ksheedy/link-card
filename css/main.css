@@ -27,25 +27,28 @@ a {
   padding: 1rem;
 }
 
-h1 {
+.link-card h2 {
   display: inline-block;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 strong {
   margin: 0;
+  margin: 0 0 1rem;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.5rem;
+  margin: 0;
+  margin: 0 0 1rem;
 }
 
 dl {
-  font-size: 0.875rem;
+  font-size: .875rem;
   display: block;
   line-height: 1.5;
   margin: 0 0 1rem;
@@ -60,14 +63,28 @@ dd {
   display: inline-block;
 }
 
+div {
+  display: inline-block;
+  text-align: center;
+}
+
 .btn {
   display: inline-block;
   text-align: center;
-  font-family: "Dosis", sans-serif;
-  font-size: 1.125rem;
   background-color: #785439;
-  color: #fff;
   border: 2px solid #785439;
   border-radius: 8px;
   padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+}
+
+.btn h2 {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+a .link-card {
+  margin: 0;
+  padding: 0;
 }
