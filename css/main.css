@@ -27,6 +27,15 @@ a {
   padding: 1rem;
 }
 
+a .link-card {
+  margin: 0;
+  padding: 0;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
 .link-card h2 {
   display: inline-block;
   font-family: Dosis, sans-serif;
@@ -82,9 +91,4 @@ div {
   margin: 0;
   font-size: 1.125rem;
   color: #fff;
-}
-
-a .link-card {
-  margin: 0;
-  padding: 0;
 }
