@@ -24,7 +24,7 @@ a {
   background-color: #dcd4cd;
   border: 3px solid #785439;
   border-radius: 8px;
-  padding: .70rem;
+  padding: .7rem;
 }
 
 a .link-card {
@@ -80,17 +80,17 @@ dd {
   margin: 0;
 }
 
-.btn {
+div {
+  text-align: center;
+}
+
+.btn h2 {
   display: inline-block;
   background-color: #785439;
   border: 2px solid #785439;
   border-radius: 8px;
   padding: .4em .75em .5em;
-  margin: 0 0 1rem;
   text-align: center;
-}
-
-.btn h2 {
   margin: 0;
   font-size: 1.125rem;
   color: #fff;
